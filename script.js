@@ -63,7 +63,7 @@ async function generateSTEAM() {
         return;
     }
     if (!ageGroup || isNaN(ageGroup)) {
-        displayInputError('age-group', 'Please enter a valid Age (e.g., 10, or just a number).');
+        displayInputError('age-group', 'Please enter a valid Age Group (e.g., 10-12, or just a number).');
         return;
     }
     if (!timeMinutes || isNaN(timeMinutes) || parseInt(timeMinutes) <= 0) {
